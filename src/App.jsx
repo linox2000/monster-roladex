@@ -15,7 +15,7 @@ class App extends Component {
       .then((users) => this.setState({ monsters: users }));
   }
   render() {
-    // const [count, setCount] = useState("");
+    
 
     return (
       <div className="App">
